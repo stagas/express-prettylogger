@@ -1,0 +1,19 @@
+{
+  "author": "George Stagas <gstagas@gmail.com> (http://stagas.com)",
+  "name": "express-prettylogger",
+  "description": "Adds a 'pretty' template to express.logger",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stagas/express-prettylogger.git"
+  },
+  "main": "prettylogger.js",
+  "engines": {
+    "node": "~0.6.8"
+  },
+  "dependencies": {
+    "colors": "~0.6.0",
+    "useragent": "~1.0.5"
+  },
+  "devDependencies": {}
+}
