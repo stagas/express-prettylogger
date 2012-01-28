@@ -15,7 +15,7 @@ express.logger.format('pretty', function(tokens, req, res){
 
   var now = new Date()
   return [ (app.settings.shortname || app.settings.name || 'express').cyan
-    , ('[' + now.toUTCString().split(' ')[4].split(':').slice(0,2).join(':') + ' ' + now.getUTCDate() + '/' + (now.getUTCMonth() + 1) + '/' + now.getUTCFullYear().toString().substr(-2) + ']').white
+    , ('[' + now.toUTCString().split(' ')[4] + ' ' + now.getUTCDate() + '/' + (now.getUTCMonth() + 1) + '/' + now.getUTCFullYear().toString().substr(-2) + ']').white
     , (req.headers['ip'] || req.headers['x-ip'] || req.headers['x-real-ip']
       || req.connection.remoteAddress).magenta
     , (req.method
