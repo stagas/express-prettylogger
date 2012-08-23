@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/stagas/express-prettylogger.png)](http://travis-ci.org/stagas/express-prettylogger)
 # express-prettylogger
 
 ## Installation:
