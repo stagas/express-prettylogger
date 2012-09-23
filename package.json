@@ -2,7 +2,7 @@
   "author": "George Stagas <gstagas@gmail.com> (http://stagas.com)",
   "name": "express-prettylogger",
   "description": "Adds a 'pretty' template to express.logger",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/stagas/express-prettylogger.git"

@@ -17,7 +17,7 @@ express.logger.format('pretty', function(tokens, req, res){
   return [ (app.settings.shortname || app.settings.name || 'express').cyan
     , ('[' + now.toUTCString().split(' ')[4] + ' ' + now.getUTCDate() + '/' + (now.getUTCMonth() + 1) + '/' + now.getUTCFullYear().toString().substr(-2) + ']').white
     , (req.headers['ip'] || req.headers['x-ip'] || req.headers['x-real-ip']
-      || req.connection.remoteAddress).magenta
+      || req.connection.remoteAddress || '127.0.0.1').magenta
     , (req.method
       + ' ' + status
       )[color]
